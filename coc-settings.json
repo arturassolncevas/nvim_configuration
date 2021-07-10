@@ -1,0 +1,33 @@
+{
+  "codeLens.enable": true,
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic-languageserver.filetypes": {
+    "sh": "shellcheck"
+  },
+  "eslint.enable": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "git.realtimeGutters": true,
+  "suggest.noselect": true,
+  "languageserver": { },
+  "list.insertMappings": {
+    "<C-x>": "action:split",
+    "<C-v>": "action:vsplit"
+  },
+  "list.normalMappings": {
+    "s": "action:split",
+    "v": "action:vsplit"
+  },
+  "list.source.files.command": "fdfind",
+  "list.source.files.args": ["--type", "f"],
+  "rust.clippy_preference": "on",
+  "tsserver.enableJavascript": true,
+  "typescript.referencesCodeLens.enable": false,
+  "git.enableGutters": false
+}
