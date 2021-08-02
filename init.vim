@@ -21,6 +21,7 @@ call plug#end()
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
+  
 endfunction
 
 inoremap <silent><expr> <Tab>
@@ -71,3 +72,6 @@ set list!
 set listchars=trail:.
 highlight RedundantSpaces ctermbg=grey guibg=grey 
 match RedundantSpaces /\s\+$/
+
+Install ripgrep for word search
+sudo apt install ripgrep
